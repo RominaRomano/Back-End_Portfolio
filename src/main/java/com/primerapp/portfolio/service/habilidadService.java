@@ -1,3 +1,5 @@
+//capa controladora -> capa servicio: Interface -> CAPA SERVICIO:CLASE (aquí) -> capa repositorio -> BD
+
 package com.primerapp.portfolio.service;
 
 import com.primerapp.portfolio.model.habilidad;

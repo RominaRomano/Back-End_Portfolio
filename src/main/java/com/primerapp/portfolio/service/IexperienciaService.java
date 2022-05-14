@@ -1,3 +1,5 @@
+//capa controladora -> CAPA SERVICIO: INTERFACE (aquí) -> capa servicio: Clase -> capa repositorio -> BD
+
 package com.primerapp.portfolio.service;
 
 import com.primerapp.portfolio.model.experiencia;

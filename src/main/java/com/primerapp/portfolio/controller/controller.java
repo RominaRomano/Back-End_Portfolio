@@ -1,3 +1,5 @@
+//CAPA CONTROLADORA(aquí) -> capa servicio: Interface -> capa servicio: Clase -> capa repositorio -> BD
+
 package com.primerapp.portfolio.controller;
 
 // Importaciones para Persona

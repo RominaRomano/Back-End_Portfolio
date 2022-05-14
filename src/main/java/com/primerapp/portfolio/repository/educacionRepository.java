@@ -1,3 +1,5 @@
+//capa controladora -> capa servicio: Interface -> capa servicio: Clase -> CAPA REPOSITORIO (aquí) -> BD
+
 package com.primerapp.portfolio.repository;
 
 import com.primerapp.portfolio.model.educacion;
