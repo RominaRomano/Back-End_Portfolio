@@ -2,6 +2,7 @@ package com.primerapp.portfolio.model;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -20,6 +21,7 @@ public class experiencia implements Serializable {
     @Basic
     private String puesto;
     private String empresa;
+    @Column(name = "TAREA", length = 1000)
     private String tarea;
     private String contacto;
     private String fechini;

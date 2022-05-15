@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Basic;
+import javax.persistence.Column;
 
 
 @Getter 
@@ -23,6 +24,7 @@ public class persona implements Serializable {
     private String nombape;
     private String direccion;
     private String email;
+    @Column(name = "ACERCADE", length = 1000)
     private String acercade;
     private String fechNac;
     private String dirPerfil;

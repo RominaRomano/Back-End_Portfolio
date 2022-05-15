@@ -3,6 +3,7 @@ package com.primerapp.portfolio.model;
 import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Basic;
+import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -21,6 +22,7 @@ public class proyecto implements Serializable {
     private String nombre;
     private String imagen;
     private String refboton;
+    @Column(name = "DSECRIPCION", length = 1000)
     private String descripcion;
     private String fechini;
     private String fechfin;
