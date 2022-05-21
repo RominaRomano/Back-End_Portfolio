@@ -22,20 +22,24 @@ public class proyecto implements Serializable {
     private String nombre;
     private String imagen;
     private String refboton;
-    @Column(name = "DSECRIPCION", length = 1000)
+    @Column(name = "DESCRIPCION", length = 1000)
     private String descripcion;
+    private String rutafrontend;
+    private String rutabackend;
     private String fechini;
     private String fechfin;
 
     public proyecto() {
     }
 
-    public proyecto(long id, String nombre, String imagen, String refboton, String descripcion, String fechini, String fechfin) {
+    public proyecto(long id, String nombre, String imagen, String refboton, String descripcion, String rutafrontend, String rutabackend, String fechini, String fechfin) {
         this.id = id;
         this.nombre = nombre;
         this.imagen = imagen;
         this.refboton = refboton;
         this.descripcion = descripcion;
+        this.rutafrontend = rutafrontend;
+        this.rutabackend = rutabackend;
         this.fechini = fechini;
         this.fechfin = fechfin;
     }
