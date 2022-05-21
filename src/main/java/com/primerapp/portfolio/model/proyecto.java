@@ -21,7 +21,6 @@ public class proyecto implements Serializable {
     @Basic
     private String nombre;
     private String imagen;
-    private String refboton;
     @Column(name = "DESCRIPCION", length = 1000)
     private String descripcion;
     private String rutafrontend;
@@ -32,11 +31,10 @@ public class proyecto implements Serializable {
     public proyecto() {
     }
 
-    public proyecto(long id, String nombre, String imagen, String refboton, String descripcion, String rutafrontend, String rutabackend, String fechini, String fechfin) {
+    public proyecto(long id, String nombre, String imagen, String descripcion, String rutafrontend, String rutabackend, String fechini, String fechfin) {
         this.id = id;
         this.nombre = nombre;
         this.imagen = imagen;
-        this.refboton = refboton;
         this.descripcion = descripcion;
         this.rutafrontend = rutafrontend;
         this.rutabackend = rutabackend;
